@@ -1,0 +1,841 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__img {
+    padding-top: 30px;
+}
+
+.menu {
+    font-size: 18px;
+    display: flex;
+}
+
+.header__item {
+    padding-right: 18px;
+    list-style: none;
+    padding-top: 65px;
+}
+
+.header__highlighted {
+    padding-right: 18px;
+    list-style: none;
+    padding-top: 48px;
+    color: #FB4C47;
+}
+
+a {
+    text-decoration: none;
+    justify-content: space-between;
+    padding-right: 18px;
+    color: #035755;
+}
+
+.header__button {
+    color: #FB4C47;
+    border-radius: 48px;
+    border: 2px solid #FB4C47;
+    padding: 16px 45px 16px 45px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #FB4C47;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 49px;
+    color: #035755;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: 22px;
+    color: #4B4F51;
+    line-height: 35px;
+}
+
+.hero {
+    display: flex;
+    padding-top: 200px;
+    padding-left: 56px;
+}
+
+.hero__button {
+    position: relative;
+    top: 50px;
+    background: #FB4C47;
+    border-radius: 48px;
+    border: 2px solid #FB4C47;
+    padding: 16px 45px 16px 45px;
+    color: #FFFFFF;
+}
+
+.item__container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.item {
+    display: flex;
+    padding-top: 200px;
+    padding-right: 56px;
+}
+
+.item_right h2 {
+    font-size: 32px;
+    color: #FB4C47;
+}
+
+.item_right h1 {
+    font-size: 49px;
+    color: #035755;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.item_right p {
+    font-size: 22px;
+    color: #4B4F51;
+} 
+
+.item__button {
+    position: relative;
+    top: 50px;
+    background: #F8DFDF;
+    border-radius: 48px;
+    border: 2px solid  #F8DFDF;
+    padding: 16px 45px 16px 45px;
+    color: #FA5652;
+}
+
+.contagion {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.contagion__title-item {
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FA5652;
+}
+
+.contagion__title {
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+    line-height: 30px;
+    color: #035755;
+}
+
+.contagion__description {
+    margin: 20px auto 60px;
+    text-align: center;
+    width: 550px;
+    color: #4B4F51;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.contagion__container {
+    display: flex;
+    max-width: min-content;
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.contagion__card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    border: solid 2px #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 35px 87px rgba(0, 0, 0, 0.11);
+    background: #FFFFFF;
+}
+
+.contagion__card:not(:first-child) {
+    margin-left: 30px;
+}
+
+.contagion__card-img {
+    display: block;
+    margin: 30px auto 20px;
+    width: 160px;
+    height: 140px;
+}
+
+.contagion__card-title {
+    font-size: 25px;
+    line-height: 50px;
+    color: #035755;
+    background: #FFFFFF;
+}
+
+.contagion__card-list {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    margin: 20px auto auto;
+    color: #4B4F51;
+    font-size: 16px;
+    width: 300px;
+}
+
+.contagion__list-item {
+    background: #FFFFFF;
+}
+
+.symptomps {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.symptomps__title-item {
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FA5652;
+}
+
+.symptomps__title {
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+    line-height: 30px;
+    color: #035755;
+}
+
+.symptomps__description {
+    margin: 20px auto 60px;
+    text-align: center;
+    width: 550px;
+    color: #4B4F51;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.symptomps__container {
+    display: flex;
+    max-width: min-content;
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.symptomps__item-img {
+    width: 850px;
+    height: 600px;
+}
+
+.what {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.what__title-item {
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FA5652;
+}
+
+.what__title {
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+    line-height: 30px;
+    color: #035755;
+}
+
+.what__description {
+    margin: 20px auto 60px;
+    text-align: center;
+    width: 550px;
+    color: #4B4F51;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.mask {
+    display: flex;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.mask_left h1 {
+    font-size: 30px;
+    color: #035755;
+}
+
+.mask_left p {
+    width: 500px;
+    height: 160px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #4B4F51;
+}
+
+.mask__item-img {
+    width: 500px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.hands {
+    display: flex;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.hands__item-img {
+    width: 500px;
+    height: 400px;
+    margin-right: 100px;
+}
+
+.hands_right h1 {
+    font-size: 30px;
+    color: #035755;
+}
+
+.hands_right p {
+    width: 500px;
+    height: 160px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #4B4F51;
+}
+
+.rag {
+    display: flex;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.rag_left h1 {
+    font-size: 30px;
+    color: #035755;
+}
+
+.rag_left p {
+    width: 500px;
+    height: 160px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #4B4F51;
+}
+
+.rag__item-img {
+    width: 500px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.contacts {
+    display: flex;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.contacts__item-img {
+    width: 500px;
+    height: 400px;
+    margin-right: 100px;
+}
+
+.contacts_right h1 {
+    font-size: 30px;
+    color: #035755;
+}
+
+.contacts_right p {
+    width: 500px;
+    height: 160px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #4B4F51;
+}
+
+.statistics {
+    display: flex;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.statistics__item-img {
+    width: 800px;
+    height: 500px;
+    margin-right: 100px;
+}
+
+.statistics__item-img-countries {
+    width: 300px;
+    height: 500px;
+    margin-left: 20px;
+}
+
+.questions {
+    width: 450px;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.questions__title {
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+    color: #0C6C44;
+}
+
+.help {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 700px;
+    height: 100px;
+    border-radius: 48px;
+    border: 2px solid #FFFFFF;
+    background: #FFFFFF;
+    padding: 16px 45px 16px 45px;
+
+}
+
+.help__title {
+    text-align: start;
+    font-size: 18px;
+    color: #758681;
+    background: #FFFFFF;
+}
+
+.help__button {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    width: 156px;
+    height: 70px;
+    margin-left: 250px;
+    border-radius: 48px;
+    border: 2px solid #FA5652;
+    background: #FFFFFF;
+    padding: 16px 45px 16px 45px;
+    background: #FA5652;
+    color: #FFFFFF;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+	margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+
+.footer__container {
+    display: flex;
+    max-width: 1227px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.footer__info {
+    width: 395px;
+    margin-left: 40px;
+    margin-top: -18px;
+}
+
+
+.footer__help-container {
+    display: flex;
+    margin-left: auto;
+    width: 900px;
+}
+
+.footer__help-list {
+    padding: 0;
+    display: flex;
+    font-size: 18px;
+    color:  #00402E;
+    list-style: none;
+}
+
+
+
+@media (max-width: 900px) {
+    .logo__img{
+        padding-top: 40px;
+    }
+    h1 {
+        font-size: 20px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    h2 {
+        font-size: 25px;
+        padding-top: 10px;
+    }
+    p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .hero__button {
+        padding: 12px 23px 12px 23px;
+    }
+    .hero_right-img{
+        width: 100%;
+    }
+    .item_left-img{
+        width: 80%;
+    }
+    .item_right h2 {
+        font-size: 25px;
+        padding-bottom: 5px;
+    }
+    
+    .item_right h1 {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+    
+    .item_right p {
+        font-size: 18px;
+        padding-top: 5px;
+    } 
+    
+    .item__button {
+        padding: 12px 23px 12px 23px;
+    }
+    .contagion__title-item {
+        font-size: 25px;
+    }
+    
+    .contagion__title {
+        font-size: 30px;
+    }
+    .contagion__card {
+        width: 250px;
+        height: 450px;
+    }
+    .contagion__card-list {
+        font-size: 14px;
+        width: 200px;
+    }
+    .symptomps__title-item {
+        font-size: 25px;
+    }
+    
+    .symptomps__title {
+        font-size: 35px;
+    }
+    
+    .symptomps__description {
+        font-size: 16px;
+    }
+    .what__title-item{
+        font-size: 25px;
+    }
+    .what__title{
+        font-size: 35px;
+    }
+    .what__description{
+        font-size: 16px;
+    }
+    .mask_left h1 {
+        font-size: 25px;
+    }
+    
+    .mask_left p {
+        width: 340px;
+        font-size: 16px;
+    }
+    
+    .mask__item-img{
+        width: 350px;
+        height: 300px;
+    }
+    
+    .hands__item-img {
+        width: 350px;
+        height: 300px;
+    }
+    
+    .hands_right h1 {
+        font-size: 25px;
+    }
+    
+    .hands_right p {
+        width: 330px;
+        font-size: 16px;
+    }
+    
+    .rag_left h1 {
+        font-size: 25px;
+    }
+    
+    .rag_left p {
+        width: 330px;
+        font-size: 16px;
+    }
+    
+    .rag__item-img {
+        width: 350px;
+        height: 300px;
+    }
+    .contacts__item-img {
+        width: 350px;
+        height: 300px;
+    }
+    
+    .contacts_right h1 {
+        font-size: 25px;
+    }
+    
+    .contacts_right p {
+        width: 330px;
+        font-size: 16px;
+    }
+    .statistics__item-img {
+        width: 450px;
+        height: 300px;
+        margin-right: 35px;
+    }
+    
+    .statistics__item-img-countries {
+        width: 300px;
+        height: 400px;
+    }
+    .questions__title {
+        font-size: 30px;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .logo__img{
+        padding-left: 215px;
+    }
+    .menu {
+        font-size: 16px;
+        padding-top: 55px;
+        margin-left: -400px;
+    }
+    .header__button{
+        padding: 5px 10px 5px 10px;
+    }
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    p {
+        width: 400px;
+        font-size: 20px;
+        padding-left: 100px;
+    }
+    .hero__button{
+        margin-right: 40px;
+    }
+    .item{
+        flex-direction: column;
+        text-align: center;
+    }
+    .item_left-img{
+        width: 80%;
+        margin-left: 55px;
+    }
+    .item_right h2 {
+        margin-left: 55px;
+    }
+    
+    .item_right h1 {
+        margin-left: 50px;
+    }
+    
+    .item_right p {
+        font-size: 20px;
+        margin-left: 50px;
+    } 
+    
+    .item__button {
+        margin-left: 55px;
+    }
+    .contagion__title-item {
+        padding-top: 100px;
+    }
+    
+    .contagion__title {
+        font-size: 20px;
+    }
+    .contagion__container{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .contagion__card{
+        margin-top: 50px;
+    }
+    .contagion__card:not(:first-child){
+        margin-right: 40px;
+    }
+    .symptomps{
+        margin-top: 1000px;
+    }
+    .symptomps__title-item {
+        font-size: 20px;
+    }
+    
+    .symptomps__title {
+        font-size: 25px;
+        line-height: 30px;
+        color: #035755;
+    }
+    
+    .symptomps__description {
+        font-size: 16px;
+    }
+    .symptomps__item-img{
+        width: 400px;
+        height: 300px;
+        margin-top: 50px;
+    }
+    .what{
+        margin-top: -150px;
+    }
+    .what__title-item {
+        font-size: 20px;
+    }
+    
+    .what__title {
+        font-size: 25px;
+    }
+    
+    .what__description {
+        font-size: 16px;
+    }
+    .mask{
+        margin-top: -150px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .mask_left h1 {
+        font-size: 25px;
+        margin-right: 120px;
+    }
+    
+    .mask_left p {
+        width: 500px;
+        height: 160px;
+        font-size: 16px;
+        margin-left: -100px;
+    }
+    .mask__item-img{
+        margin-left: -100px;
+    }
+    .hands{
+        flex-direction: column;
+        text-align: center;
+    }
+    .hands__item-img {
+        margin-right: 70px;
+    }
+    
+    .hands_right h1 {
+        margin-right: 70px;
+        font-size: 20px;
+    }
+    
+    .hands_right p {
+        width: 500px;
+        height: 160px;
+        margin-left: -90px;
+    }
+    .rag{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .rag_left h1 {
+        font-size: 20px;
+        margin-right: 90px;
+    }
+    
+    .rag_left p {
+        margin-left: -90px;
+        width: 500px;
+        height: 160px;
+        font-size: 16px;
+    }
+    
+    .rag__item-img {
+        margin-left: -90px;
+        width: 350px;
+        height: 300px;
+    }
+    .contacts{
+        flex-direction: column;
+        text-align: center;
+    }
+    .contacts__item-img {
+        margin-left: 40px;
+        width: 350px;
+        height: 300px;
+    }
+    
+    .contacts_right h1 {
+        margin-right: 80px;
+        font-size: 20px;
+    }
+    
+    .contacts_right p {
+        width: 500px;
+        height: 160px;
+        font-size: 16px;
+        margin-left: -90px;
+    }
+    .statistics{
+        flex-direction: column;
+        text-align: center;
+    }
+    .questions__title{
+        font-size: 25px;
+    }
+    .help{
+        margin-left: 0px;
+        width: 400px;
+    }
+    .help__button {
+        padding: 12px 23px 12px 23px;
+    }
+    .footer__help-container{
+        margin-top: 100px;
+        margin-left: -100px;
+    }
+}
